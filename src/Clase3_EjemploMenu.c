@@ -32,6 +32,7 @@ int main()
 	char opcion;
 	char opcionSalir;
 	int flagIniciar = 0;
+	int flagProcesar = 0;
 	int flagSalir = 0;
 
 	do
@@ -52,12 +53,17 @@ int main()
 			else
 			{
 				printf("\n\nSE HA PROCESADO CORRECTAMENTE...\n\n");
+				flagProcesar = 1;
 			}
 			break;
 		case 'c':
 			if(flagIniciar != 1)
 			{
 				printf("\nDebe Iniciar antes de Finalizar.\n");
+			}
+			if(flagProcesar != 1)
+			{
+				printf("\nDebe Procesar antes de Finalizar\n");
 			}
 			else
 			{

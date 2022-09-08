@@ -8,11 +8,11 @@
 #ifndef LIBRERIA_H_
 #define LIBRERIA_H_
 
-
-
-#endif /* LIBRERIA_H_ */
-
 char menu();
 char validarOpcion(char opcion);
 char salir();
 char validarSalir(char opcion);
+
+#endif /* LIBRERIA_H_ */
+
+

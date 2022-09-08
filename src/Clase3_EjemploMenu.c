@@ -61,7 +61,7 @@ int main()
 			{
 				printf("\nDebe Iniciar antes de Finalizar.\n");
 			}
-			if(flagProcesar != 1)
+			else if(flagProcesar != 1)
 			{
 				printf("\nDebe Procesar antes de Finalizar\n");
 			}
